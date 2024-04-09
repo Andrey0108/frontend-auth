@@ -14,9 +14,28 @@ Hacer `fork` (bifurcacion) con el boton `fork` crear el fork con el mismo nombre
 
       cd frontend-auth/
 
+- Instalar los paquetes (debes tener la ultima version de nodejs: 21.12.1)
+
+      npm install
+
+  > En el caso de NO tener el NVM debes realizar la instalación:
+  > - [NVM for Windows 💻](https://youtu.be/xW3QUu_zhLo?si=g1kGfOIbqJWXbu1l)
+
+  > En el caso de tener instalado el NVM debes asegurarte de tener la ultima version:
+
+      nvm install --lts
+
+  > Usar la ultima versión
+
+      nvm use 21.12.1
+
 - Abrir editor de codigo:
 
       code .
+
+- Levantar el servidor y ver los cambios en tiempo real:
+
+      npm run dev
 
 - Empezar el desafio
 
